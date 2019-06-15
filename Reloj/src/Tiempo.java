@@ -31,10 +31,10 @@ public class Tiempo {
 		this.second = second;
 	}
 	
-	public void CambiarHora(int hora, int min, int seg) {
-		this.hour= hora;
-		this.minute= min;
-		this.second= seg;
+	public void CambiarHora(int hora, int minuto, int segundo) {
+		this.hour = hora;
+		this.minute = minuto;
+		this.second = segundo;
 		System.out.println("\nNueva Hora");
 		System.out.println(this.hour+":"+this.minute+":"+this.second);
 	}
